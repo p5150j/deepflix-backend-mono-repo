@@ -3,6 +3,17 @@
 ## Overview
 DeepFlix is an advanced AI-powered platform that generates cinematic content through a microservices architecture. The system combines multiple AI services to create complete movies from text prompts, including story generation, image creation, voice narration, and video production.
 
+## About This Repository
+This repository contains the **backend microservices and queue system** for DeepFlix. It includes:
+- The orchestration and processing logic for story, image, audio, and video generation
+- The queue management and asynchronous job handling
+- All backend APIs and service integrations
+
+If you are looking for the **DeepFlix UI (frontend)**, visit:
+[https://github.com/p5150j/deepflix-ui](https://github.com/p5150j/deepflix-ui)
+
+[![DeepFlix UI Screenshot](https://github.com/p5150j/deepflix-ui/blob/master/1.png?raw=true "DeepFlix UI")](https://github.com/p5150j/deepflix-ui)
+
 ## System Architecture
 
 ### High-Level Architecture
