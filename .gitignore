@@ -1,0 +1,47 @@
+# Node
+node_modules/
+**/node_modules/
+queue-service/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+*.env.*
+*deepflix-cc642-firebase-adminsdk-fbsvc-140547cc0d*
+*service-account*.json
+*firebase-adminsdk*.json
+*.pem
+*.key
+*.crt
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+.idea/
+.vscode/
+*.swp
