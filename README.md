@@ -7,7 +7,6 @@ DeepFlix is an advanced AI-powered platform that generates cinematic content thr
 
 ### High-Level Architecture
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryTextColor': '#000000', 'primaryBorderColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff'}}}%%
 graph TB
     subgraph Client Layer
         Web[Web Interface]
@@ -54,7 +53,6 @@ graph TB
 
 ### Service Interaction Flow
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryTextColor': '#000000', 'primaryBorderColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff'}}}%%
 sequenceDiagram
     participant Client
     participant Queue
@@ -185,7 +183,6 @@ Content-Type: application/json
 
 ### Movie Generation Process
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryTextColor': '#000000', 'primaryBorderColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff'}}}%%
 stateDiagram-v2
     [*] --> QueueCreation
     QueueCreation --> StoryGeneration
@@ -219,7 +216,6 @@ stateDiagram-v2
 
 ### Error Handling Flow
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryTextColor': '#000000', 'primaryBorderColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'tertiaryColor': '#ffffff'}}}%%
 graph TD
     A[Job Creation] --> B{Validation}
     B -->|Success| C[Processing]
@@ -267,8 +263,8 @@ PORT=5002
 2. **Installation**
    ```bash
    # Clone repository
-   git clone https://github.com/.......git
-   cd deepFlix
+   git clone https://github.com/your-org/deepflix.git
+   cd deepflix
 
    # Install dependencies
    npm install
