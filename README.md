@@ -238,7 +238,7 @@ REDIS_URL=redis://localhost:6379
 FIREBASE_CONFIG=path/to/config
 
 # LLM Service
-ANTHROPIC_API_KEY=your_key
+LLM_PORT=3643
 PORT=5000
 
 # Flow API
@@ -263,8 +263,8 @@ PORT=5002
 2. **Installation**
    ```bash
    # Clone repository
-   git clone https://github.com/your-org/deepflix.git
-   cd deepflix
+   git clone https://github.com/p5150j/deepflix-backend-mono-repo.git
+   cd deepflix-backend-mono-repo
 
    # Install dependencies
    npm install
@@ -331,7 +331,6 @@ PORT=5002
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
